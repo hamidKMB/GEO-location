@@ -4,9 +4,9 @@ module.exports = {
   mode: "development",
   entry: "./src/app.ts",
   output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "/public/dist"),
-    publicPath: path.resolve(__dirname, "/public/dist"),
+    filename: "app.js",
+    path: path.resolve(__dirname, "public/dist"),
+    publicPath: path.resolve(__dirname, "public/dist"),
   },
   devtool: "inline-source-map",
   module: {
